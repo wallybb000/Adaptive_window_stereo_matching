@@ -1,0 +1,29 @@
+﻿已經開始建置於 2014/9/2 下午 03:08:47。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\wally\Desktop\Adaptive_window_stereo_matching\Adaptive_window_stereo_matching\Adaptive_window_stereo_matching.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Adaptive_window_stereo_matching.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Adaptive_window_stereo_matching.cpp
+         Adaptive_window_stereo_matching.cpp
+     1>Adaptive_window_stereo_matching.cpp(21): warning C4018: '<' : signed/unsigned 不相符
+     1>Adaptive_window_stereo_matching.cpp(43): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\wally\desktop\adaptive_window_stereo_matching\adaptive_window_stereo_matching\adaptive_window_stereo_matching.cpp(32): warning C4715: 'setDisparityToWindowRegion' : 不是所有控制路徑都傳回值
+     1>c:\opencv\opencv2.4.8\opencv\build\include\opencv2\core\types_c.h(315): warning C4793: 'cvRound' : 函式以機器碼編譯 :
+         	在 Managed 程式碼中不支援內嵌原生組譯碼
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\wally\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\wally\Desktop\Adaptive_window_stereo_matching\Debug\Adaptive_window_stereo_matching.exe" /INCREMENTAL /NOLOGO opencv_calib3d248.lib opencv_contrib248.lib opencv_core248.lib opencv_features2d248.lib opencv_flann248.lib opencv_gpu248.lib opencv_highgui248.lib opencv_imgproc248.lib opencv_legacy248.lib opencv_ml248.lib opencv_nonfree248.lib opencv_objdetect248.lib opencv_photo248.lib opencv_stitching248.lib opencv_ts248.lib opencv_video248.lib opencv_videostab248.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\wally\Desktop\Adaptive_window_stereo_matching\Debug\Adaptive_window_stereo_matching.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\Adaptive_window_stereo_matching.obj
+         Debug\AssemblyInfo.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+     1>opencv_ts248.lib(opencv_ts_pch.obj) : error LNK2038: 偵測到 '_ITERATOR_DEBUG_LEVEL' 不符:  '0' 值與 '2' 值 (位於 Adaptive_window_stereo_matching.obj) 不符
+     1>opencv_ts248.lib(opencv_ts_pch.obj) : error LNK2038: 偵測到 'RuntimeLibrary' 不符:  'MD_DynamicRelease' 值與 'MDd_DynamicDebug' 值 (位於 Adaptive_window_stereo_matching.obj) 不符
+     1>LINK : warning LNK4098: 預設的程式庫 'MSVCRTD' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library
+     1>C:\Users\wally\Desktop\Adaptive_window_stereo_matching\Debug\Adaptive_window_stereo_matching.exe : fatal error LNK1319: 偵測到 2 個不符的項目
+     1>專案 "C:\Users\wally\Desktop\Adaptive_window_stereo_matching\Adaptive_window_stereo_matching\Adaptive_window_stereo_matching.vcxproj" (Build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:04.52

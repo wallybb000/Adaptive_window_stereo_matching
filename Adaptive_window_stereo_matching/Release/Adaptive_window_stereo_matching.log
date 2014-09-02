@@ -1,0 +1,26 @@
+﻿已經開始建置於 2014/9/2 下午 06:19:54。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\wally\Desktop\Adaptive_window_stereo_matching\Adaptive_window_stereo_matching\Adaptive_window_stereo_matching.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Adaptive_window_stereo_matching.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Adaptive_window_stereo_matching.cpp
+         Adaptive_window_stereo_matching.cpp
+     1>Adaptive_window_stereo_matching.cpp(54): warning C4244: '=' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>Adaptive_window_stereo_matching.cpp(79): warning C4018: '<' : signed/unsigned 不相符
+     1>Adaptive_window_stereo_matching.cpp(102): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\wally\desktop\adaptive_window_stereo_matching\adaptive_window_stereo_matching\adaptive_window_stereo_matching.cpp(91): warning C4715: 'setDisparityToWindowRegion' : 不是所有控制路徑都傳回值
+     1>c:\opencv\opencv2.4.8\opencv\build\include\opencv2\core\types_c.h(315): warning C4793: 'cvRound' : 函式以機器碼編譯 :
+         	在 Managed 程式碼中不支援內嵌原生組譯碼
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\wally\Desktop\Adaptive_window_stereo_matching\Release\Adaptive_window_stereo_matching.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d248.lib opencv_contrib248.lib opencv_core248.lib opencv_features2d248.lib opencv_flann248.lib opencv_gpu248.lib opencv_highgui248.lib opencv_imgproc248.lib opencv_legacy248.lib opencv_ml248.lib opencv_nonfree248.lib opencv_objdetect248.lib opencv_photo248.lib opencv_stitching248.lib opencv_ts248.lib opencv_video248.lib opencv_videostab248.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\wally\Desktop\Adaptive_window_stereo_matching\Release\Adaptive_window_stereo_matching.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\app.res
+         Release\Adaptive_window_stereo_matching.obj
+         Release\AssemblyInfo.obj
+         Release\stdafx.obj
+         "Release\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+     1>opencv_ts248.lib(ts_gtest.obj) : warning LNK4099: 找不到 PDB 'opencv_ts248.pdb' (有 'opencv_ts248.lib(ts_gtest.obj)' 或位於 'C:\Users\wally\Desktop\Adaptive_window_stereo_matching\Release\opencv_ts248.pdb')，當做沒有偵錯資訊，連結物件
+     1>opencv_ts248.lib(ts_perf.obj) : warning LNK4099: 找不到 PDB 'opencv_ts248.pdb' (有 'opencv_ts248.lib(ts_perf.obj)' 或位於 'C:\Users\wally\Desktop\Adaptive_window_stereo_matching\Release\opencv_ts248.pdb')，當做沒有偵錯資訊，連結物件
+     1>opencv_ts248.lib(opencv_ts_pch.obj) : warning LNK4099: 找不到 PDB 'opencv_ts248.pdb' (有 'opencv_ts248.lib(opencv_ts_pch.obj)' 或位於 'C:\Users\wally\Desktop\Adaptive_window_stereo_matching\Release\opencv_ts248.pdb')，當做沒有偵錯資訊，連結物件
+         Adaptive_window_stereo_matching.vcxproj -> C:\Users\wally\Desktop\Adaptive_window_stereo_matching\Release\Adaptive_window_stereo_matching.exe
+     1>專案 "C:\Users\wally\Desktop\Adaptive_window_stereo_matching\Adaptive_window_stereo_matching\Adaptive_window_stereo_matching.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:02.98
